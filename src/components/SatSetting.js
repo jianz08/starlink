@@ -26,6 +26,7 @@ class SatSettingForm extends Component {
                                     message:"Please input your Longitude",
                                 }
                             ],
+                            initialValue: -120
                         })(<InputNumber min={-180} max={180}
                             style={{width: "100%"}}
                             placeholder="Please input Longitude"
@@ -41,6 +42,7 @@ class SatSettingForm extends Component {
                                     message:"Please input your Latitude",
                                 }
                             ],
+                            initialValue: 30
                         })(<InputNumber min={-90} max={90}
                             style={{width: "100%"}}
                             placeholder="Please input Latitude"
@@ -56,6 +58,7 @@ class SatSettingForm extends Component {
                                     message:"Please input your Elevation",
                                 }
                             ],
+                            initialValue: 0
                         })(<InputNumber min={-413} max={8850}
                             style={{width: "100%"}}
                             placeholder="Please input Elevation"
@@ -71,6 +74,7 @@ class SatSettingForm extends Component {
                                     message:"Please input your Altitude",
                                 }
                             ],
+                            initialValue: 90
                         })(<InputNumber min={0} max={90}
                             style={{width: "100%"}}
                             placeholder="Please input Altitude"
@@ -86,6 +90,7 @@ class SatSettingForm extends Component {
                                     message:"Please input your Duration",
                                 }
                             ],
+                            initialValue: 10
                         })(<InputNumber min={0} max={90}
                             style={{width: "100%"}}
                             placeholder="Please input Duration"
